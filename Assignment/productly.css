@@ -1,0 +1,253 @@
+html {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url(Flat-Mountains.svg);
+    height: 150px;
+}
+
+header:hover {
+    opacity: 0.7;
+}
+
+.links-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.links-bar > p:nth-child(1) {
+    margin-right: 350px;
+}
+
+.links-bar > p:nth-child(5) {
+    margin-right: 50px;
+}
+
+/* ---Buttons properties---  */
+
+#sign-in,
+#sign-up {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#sign-in {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+#sign-up,
+#get-started,
+#sign-up-now,
+#sign-up-footer {
+    border: transparent;
+    background-color: #FF9900;
+    color: white;
+}
+
+#get-started,
+#sign-up-now {
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+#sign-up-now {
+    margin-left: 400px;
+}
+
+#sign-up-footer {
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+/* ---First Section--- */
+
+#section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section1 > div {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+#section1 > div > p:nth-child(1) {
+    color: #2F281E;
+    font-weight: 900;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+
+#section1 > div > p:nth-child(2) {
+    color: #544837;
+    font-size: 19px;
+}
+
+#youtube > span {
+    text-decoration: underline;
+}
+
+#youtube {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FF9900;
+}
+
+i {
+    margin-right: 10px;
+}
+
+/* ---Icons Section--- */
+
+body > p {
+    color: #2F281E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+}
+
+#icons > div > p:nth-child(2) {
+    font-weight: 600;
+}
+
+/* ---Second Section--- */
+
+#section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#section2 > div {
+    /* border: 2px solid pink; */
+    margin: 0 auto;
+}
+
+#section2 > div > p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+#section2 > div > p:nth-child(4),
+#section2 > div > p:nth-child(6),
+#section2 > div > p:nth-child(8) {
+    font-weight: bold;
+}
+
+/* ---Third Section--- */
+
+#section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section3 > div > p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+#section3 > div > p > img {
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+/* ---Fourth Section--- */
+
+#section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section4 > div {
+    /* border: 2px solid pink; */
+    margin: 0 auto;
+}
+
+#section4 > div > p:nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+#section4 > div > p:nth-child(4),
+#section4 > div > p:nth-child(6),
+#section4 > div > p:nth-child(8) {
+    font-weight: bold;
+}
+
+/* ---Footer--- */
+
+#footer-lists {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.6fr 1fr;
+    gap: 3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type:none;
+    color: #544837;
+}
+
+#footer-lists > div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#phone {
+    border: 1px solid #BCD0E5;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: -40px;
+
+}
+
+#phone::placeholder {
+    color: #BCD0E5;
+}
